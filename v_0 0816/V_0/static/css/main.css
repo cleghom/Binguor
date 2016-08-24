@@ -1,0 +1,85 @@
+/* 通用顶部栏*/
+body{background: #dcc}
+header {position:fixed; width: 100%;display: block;clear: both;min-width: 1100px;height: 48px;background-color: #338ba4;z-index: 10;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.mainheader{width: 100%;display: block;clear: both;width: 900px;min-width: 800px;margin: 0 auto;}
+.head_lf {float: left;margin-left: 0px;padding: 0px;height: 0px;color: antiquewhite;border: solid 4px #fff;}
+.head_rf {float: right; margin-right: 140px;padding: 0 0;color: aliceblue}
+.head_lf_icon {float: left;margin-left: 10px;}
+.head_lf_Binguor_info1 {float: left;padding: 0px;height: 0px;color: antiquewhite;margin-left:20px;}
+.head_lf_Binguor_info2 {float: left;padding: 0px;color: antiquewhite;margin-left:20px;width:160px;height:20px}
+.head_lf_Binguor_info2 h1 {color: aliceblue;font-family: "微软雅黑";font-size: 16px}
+.head_rf a {color: bisque;}
+.head_rf_search{float: right;padding: 0 0;color: aliceblue; width:240px;height:40px;margin-right: 28px;};
+.head_rf_faceicon{padding: 0 0;color: aliceblue;float: right;margin-right: 120px;color: aliceblue};
+.head_rf_msg{float: right; margin-right: 140px;padding: 0 0;color: aliceblue;margin-right:14px;margin-top:12px};
+/* 注册页面的顶部栏*/
+.register {float: none;padding: 0px;}
+/* 通用底部栏*/
+footer {display: block;height: 40px;line-height: 40px; width: 710px;margin: 50px auto 40px;padding: 0 20px 30px;border-radius: 2px;font-size: 12px;color: #999;text-shadow: 0 1px 0 #fff;background-color: #fff;border: 1px solid #c1c1d1;}
+.footer-copyright {float: left;}
+.footer-links {float: right;}
+
+/* 用户头像*/
+.profile-pic {width: 48px;height: 48px;border-radius: 24px;}
+.userfaceicon {float: right;margin-right: 0px;padding: 0 0;color: aliceblue}
+/* 用户头像下拉菜单*/
+.dropdown {position: relative;display: inline-block;}
+.dropdown-content {display: none;position: absolute;right: 0;background-color: #f9f9f9;min-width: 120px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dropdown-content a {color: black;padding: 6px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: #e1e1e1}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* 登录下拉框 */
+.loginpart {position: relative;display: inline-block;}
+.loginpart-content {border-radius: 10px; display: none;position: absolute;right: 0;background-color: #f9f9f9;min-width: 120px;box-shadow: 16px 10px 10px 0px rgba(0,0,0,0.2);}
+.loginpart-content a {color: black;padding: 0px 0px;text-decoration: none;display: block;}
+.loginpart-content a:hover {background-color: #e1e1e1}
+.loginpart:hover .loginpart-content {display: block;}
+.login {margin:30 auto;margin-top:0px;width:330px;height:220px;text-align:left;border:solid #ccc 1px;padding:10px 0;background:#fff;border-radius:5px;box-shadow:2px 2px 2px #ccc;}
+.login label{display:block;padding:0 20px;text-transform:capitalize;height:22px;line-height:22px;margin-top:10px;position:relative;color: #334455}
+.login label a{position:absolute;right:25px;top:0px;}
+.login input{margin-left:15px;width:295px;height:30px;border:solid #ccc 1px;border-radius:5px;margin-top:2px;color: #334455}
+.login span{width:55%;margin:20px auto;height:1px;overflow:hidden;background:#ccc;display:block;}
+.login input[type=checkbox]{width:15px;height:15px;border-radius:1px;background:linear-gradient(#fff,#ccc);margin-top:13px;float:left;border:solid #ccc 1px;}
+.login input[type=checkbox] + label{font-size:12px;color:red;float:left;height:20px;line-height:20px;padding:0;padding-left:10px;}
+.login input[type=submit]{width:100px;height:30px;line-height:30px;float:right;border-radius:15px;margin-right:20px;border:solid #7dcdf2 1px;font-size:16px;background:linear-gradient(#b9ddf3,#7dcdf2);box-shadow:2px 2px 2px #7dcdf2;color:#fff;cursor:position;*background:#b9ddf3;background:#b9ddf3\0;}
+.login input[type=submit]:active{position:relative;left:1px;top:1px;color:red;}
+
+/* 个人消息提示 */
+.notice {width:16px;height:16px;line-height:12px;font-size:12px;color:#fff;text-align:center;background-color:#d00;border-radius:5px;position:absolute;right:-6px;top:-6px;}
+.mainpanel {margin-top:200px;display: block;clear: both;overflow: hidden;width: 1100px;min-width:800px;min-height:20px;margin: 0 auto;padding: 0px;border: solid 1px #ddd;background: #fafafa;text-align: left;}
+
+/*快速回到顶端小控件*/
+p#back-to-top{display: none;position:fixed;top:200px;right:180px;}
+p#back-to-top a:hover{color:#979797;}
+p#back-to-top a span{width: 0;height: 0; border-left: 15px solid transparent;  /* 左边框的宽 */    
+    border-right: 18px solid transparent; /* 右边框的宽 */    
+    border-bottom: 18px solid #2f2f2f; /* 下边框的长度|高,以及背景色 */    
+    font-size: 0; line-height: 6;   }
+
+/*用户个人信息主面板---userinfo*/
+.usermainpanel{display: block;clear: both;overflow: hidden;width: 980px;margin: 0 auto;padding: 0px;border: solid 1px #ddd;}
+.usermainprofile{display: block;clear: both;overflow: hidden;width: 980px;margin: 0 auto;padding: 0px;border: solid 1px #ccc;}
+.panel_head {clear: both;height: 24px;padding: 40 10px;color: #362e2b;font: bold 12px/24px Arial;text-indent: 5px;}
+
+/*panel多tab部分布局*/
+.tabPanel ul{height:19px;border-bottom: 1px;margin-left: -40px;}
+.tabPanel li{
+	list-style:none;
+	float:left;border:1px solid #aaa;font-size:11px;height:30px;line-height:30px;width:111px;text-align:center;cursor:pointer;
+	border-radius:4px 4px 0 0;
+	box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+}
+.tabPanel .hit{
+	border-bottom:1px solid #fff;cursor:pointer;color:black;text-shadow:0 1px 0 #fff;
+	background:#fff;
+	background:-webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#fff));
+	background:-moz-linear-gradient(top, #e1e1e1, #fff);
+}
+.pane {border:1px solid #aaa;margin-left:0px;border-top:10;height:580px;background-color:#fff;display:none;}
+.pane p{padding:15px 15px 0 0px;}
+.pane h4{padding:15px 15px 0 10px;font-size:14px;font-weight:bold;}
+
+/*左侧导航*/
+.leftnav{width:246px;height: 440px;float: left;background: rgba(3,13,13,0.2);margin-top: 20px;margin-left: 8px}

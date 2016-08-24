@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>缤果儿-注册页</title>
+        <!-- domain name:galashibei,binguor...-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="../static/image/logo.ico" type="image/x-icon">
+        <link rel="Bookmark" href="../static/image/logo.ico">
+        <link rel="icon" href="../static/image/logo.ico" type="image/gif">
+        <link href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/main.css" rel="stylesheet">
+        <link href="../static/css/register.css" rel="stylesheet">
+        <script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <script src="../static/js/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript">
+        window.onload = function()
+        {var startYear=2010;//起始年份
+        var endYear=new Date().getUTCFullYear();//结束年份，默认为当前年份
+        var obj=document.getElementById('selectYear')
+        for (var i=startYear;i<=endYear;i++)obj.options.add(new Option(i,i));
+        obj.options[obj.options.length-1].selected=1}
+        </script>
+        <header>
+            <div class ="mainheader">
+                <div class="head_lf_icon">
+                    <a href="index.html"><img src="../static/image/48px_logo.ico"></a>
+                </div>
+                <div class="head_lf_Binguor_info1">
+                    Binguor
+                </div>
+                <div class="head_lf_Binguor_info2" >
+                    <h1>缤果儿，缤纷你喜欢~</h1>
+                </div>
+                <div class="head_rf" style="margin-top:20px;margin-right:2px;">
+                    <div class="loginpart">
+                        <a href="userpage.html">登 录</a>
+                        <div class="loginpart-content">
+                            <div class="login">
+                                <form action="" method="post">
+                                    <label>用户名:</label>
+                                    <input type="text" name="username" required />
+                                    <label>密码:<a href="#">忘记密码?</a></label>
+                                    <input type="password" name="password" required />
+                                    <input type="checkbox" name="save" id="save" />
+                                    <label for="save">保持登录</label>
+                                    <input type="submit" value="登录" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </head>
+    <body>
+        <div class="mainpanel">
+            <div class="registerpanel"><!-- demo css is from school.css-->
+            <form>
+                <table width="100%">
+                    <h1 style="margin-top:20px;font-family:微软雅黑;color:#227766">现在就注册加入缤果儿</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <tr>
+                        <th align="right">邮箱</th>
+                        <td>
+                            <input type="email" class="stext" placeholder="填写邮箱">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="right">密码</th>
+                        <td>
+                            <input type="password" class="stext" placeholder="填写密码">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="right">再输入一次密码</th>
+                        <td>
+                            <input type="password" class="stext" placeholder="再次确认邮箱">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="right">学校名称</th>
+                        <td>
+                            <input type="text" class="stext" name="school" id="school-name" placeholder="点击选择学校" onclick="pop()" readonly="true"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="right">入学年份</th>
+                        <td><select id="selectYear" style="width:214px;height:28px;"></select></td>
+                    </tr>
+                </table>
+            </form>
+            <button type="submit" class="btn btn-primary" style="margin-left:100px;margin-top:40px;">
+            <span class="glyphicon glyphicon-user" style="font-size: 12px；margin-left:60px"></span> 加入缤果儿！
+            </button>
+        </div>
+        <div id="choose-box-wrapper">
+            <div id="choose-box">
+                <div id="choose-box-title">
+                    <span>选择学校</span>
+                </div>
+                <div id="choose-a-province"></div>
+                <div id="choose-a-school"></div>
+                <div id="choose-box-bottom">
+                    <input type="button" onclick="hide()" value="关闭" />
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="footer-copyright">Copyright © Binguor.com 2016-2017, All Rights Reserved</p>
+            <p class="footer-links">
+                <a href="../html/index.html">缤果儿主页</a>|
+                <a href="#">联系我们</a>|
+                <a href="#">服务协议</a>|
+                <a href="#">隐私政策</a>|
+                <a href="#">帮助中心</a>
+            </p>
+        </footer>
+    </div>
+    <script src="../static/js/school.js"></script>
+    <script src="../static/js/selectschool.js"></script>
+</body>
+</html>

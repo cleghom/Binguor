@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>个人资料</title>
+        <!-- domain name:galashibei,binguor...-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="youle,转让,学校,校园,社区,校内,二手,手工艺品,淘票,演唱会门票,二手自行车,二手乐器">
+        <meta name="description" content="XXXX">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../static/image/logo.ico" type="image/x-icon">
+        <link rel="Bookmark" href="../static/image/logo.ico">
+        <link rel="icon" href="../static/image/logo.ico" type="image/gif">
+        <link href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/main.css" rel="stylesheet">
+        <script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <script src="../static/js/jquery-3.1.0.min.js"></script>
+        
+        <script type="text/javascript">
+        $(document).ready(function(){
+        //首先将#back-to-top隐藏
+        $("#back-to-top").hide();
+        //当滚动条的位置处于距顶部600像素以下时，跳转链接出现，否则消失
+        $(function () {
+        $(window).scroll(function(){
+        if ($(window).scrollTop()>600){
+        $("#back-to-top").fadeIn(500);
+        }else{
+        $("#back-to-top").fadeOut(500);
+        }
+        });
+        //当点击跳转链接后，回到页面顶部位置
+        $("#back-to-top").click(function(){
+        $('body,html').animate({scrollTop:0},100);
+        return false;
+        });
+        });
+        });
+        </script>
+        <!-- panel tab-->
+        <script type="text/javascript">
+        $(function() {
+        $('.tabPanel ul li').hover(function() {
+        $(this).addClass('hit').siblings().removeClass('hit');
+        $('.panes>div:eq(' + $(this).index() + ')').show().siblings().hide();
+        })
+        })
+        </script>
+    </head>
+    
+    <body>
+        <header>
+            <div class ="mainheader">
+                <div class="head_rf_faceicon" ></div>
+                <div class="head_lf_icon">
+                    <a href="index.html"><img src="../static/image/48px_logo.ico"></a>
+                </div>
+                <div class="head_lf_Binguor_info1">
+                    Binguor
+                </div>
+                <div class="head_lf_Binguor_info2" >
+                    <h1>缤果儿，缤纷你喜欢~</h1>
+                </div>
+                <div class="head_rf_faceicon">
+                    <span class="profile" style="width:240px;height:40px;margin-right: 20px;">
+                        <div class="dropdown" style="float:right;">
+                            <img class="profile-pic" src="../static/image/face.jpg">
+                            <div class="dropdown-content">
+                                <a href="../html/userpage.html">我的主页</a>
+                                <a href="#">我的朋友圈</a>
+                                <div style="height:1px;
+                                    width:100%;
+                                    background:#00CCFF;
+                                overflow:hidden;"></div>
+                                <a href="#">我的小铺</a>
+                                <a href="#">我的资料</a>
+                                <div style="height:1px;
+                                    width:100%;
+                                    background:#00CCFF;
+                                overflow:hidden;"></div>
+                                <a href="../html/index.html">退出</a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="head_rf" style="margin-right:14px;margin-top:12px;">
+                    <span class="glyphicon glyphicon-envelope" style="margin-top: 5px;color: rgb(205, 201, 202); font-size: 22px;">
+                        <div class="notice">99</div>
+                    </span>
+                </div>
+                <div class="head_rf" style="width:240px;height:40px;margin-right: 14px;">
+                    <div style="padding: 6px;">
+                        <form class="bs-example bs-example-form" role="form">
+                            <div class="col-lg-6" style="width:240px;padding-top: -95px; ">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="查找你心仪的商品">
+                                    <span class="input-group-btn"><button class="btn btn-default" type="button" >查找</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main part -->
+        <div class="mainpanel">
+            <div class="usermainpanel" style="min-height:720px;">
+                <div id="panel_Profile">
+                    <ul class="panel_head" style="background:#ddd;"><span>个人资料</span></ul>
+                    <div style="width:958px;margin-top:10px; margin-left:10px;background:#aaa;">
+                        <div class="userinfo_panel_left" style="width:230px;height:400px;float:left;">
+                            <img style="width:200px; height:200px; margin-left:13px;margin-top:13px;" src="../static/image/face.jpg"  />
+                            <br><br>
+                            <div><b style="margin-left:40px;">Hello Kitty</b></div>
+                            <div style="margin-top:20px;margin-left:20px;">
+                                <li style="list-style:none;margin-top:20px;">
+                                    果儿龄：1.2年
+                                </li>
+                                <li style="list-style:none;font-size:14px;margin-top:8px;">
+                                    卖出小物品：12
+                                </li>
+                                <li style="list-style:none;font-size:14px;margin-top:8px;">
+                                    买进小物品：32
+                                </li>
+                                <li style="list-style:none;font-size:14px;margin-top:8px;">
+                                    卖出所赚：￥300
+                                </li>
+                            </div>
+                        </div>
+                        <div class="userinfo_panel_right" style="width:696px;height:600px;background:#fafafa;float:left;margin-left:8px;border-left:solid 1px #ddd;margin-top:12px;">
+                            <div class="userinfo_infoblock">
+                                <div style="margin-left:20px;">
+                                    <div style="width:690px;margin:0px auto;">
+                                        <div class="tabPanel">
+                                            <ul>
+                                                <li class="hit">基本信息</li>
+                                                <li>我的小铺</li>
+                                                <li>我的消息</li>
+                                            </ul>
+                                            <div class="panes">
+                                                <div class="pane" style="display:block;">
+                                                    <div style="margin:20px 20px;float:right;">---------------------<a href="#">修改>></a></div>
+                                                </div>
+                                                <div class="pane">
+                                                    <p>tab2</p></div>
+                                                    <div class="pane">
+                                                        <p>tab3</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p id="back-to-top">
+                <a href="#top">
+                    <span>置顶</span>
+                </a>
+            </p>
+            <footer>
+                <p class="footer-copyright" ">Copyright © Binguor.com 2016-2017, All Rights Reserved</p>
+                <p class="footer-links">
+                    <a href="../html/index.html">缤果儿主页</a>|
+                    <a href="#">联系我们</a>|
+                    <a href="#">服务协议</a>|
+                    <a href="#">隐私政策</a>|
+                    <a href="#">帮助中心</a>
+                </p>
+            </footer>
+        </body>
+    </html>

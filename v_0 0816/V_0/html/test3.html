@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>校园</title>
+        <!-- domain name:galashibei,binguor...-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="youle,转让,学校,校园,社区,校内,二手,手工艺品,淘票,演唱会门票,二手自行车,二手乐器">
+        <meta name="description" content="XXXX">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../static/image/logo.ico" type="image/x-icon">
+        <link rel="Bookmark" href="../static/image/logo.ico">
+        <link rel="icon" href="../static/image/logo.ico" type="image/gif">
+        <link href="../plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/goodspanel.css" rel="stylesheet">
+        <link href="../static/css/lightbox.css" rel="stylesheet">
+        <link href="../static/css/main.css" rel="stylesheet">
+        <script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="../plugins/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <script src="../static/js/jquery-3.1.0.min.js"></script>
+        <script src="../static/js/jquery.imagesloaded.js"></script>
+        <script src="../static/js/jquery.wookmark.js"></script>
+        <script type="text/javascript">
+        // 放大
+        $(document).ready(function() {
+        $(".zoom,.ilike").hide();
+        $(".zoom").each(function() { //遍历所有对象
+        var src = $(this).siblings("img").attr("src");
+        $(this).attr({
+        href: src
+        });
+        });
+        $("#nav li").click(function() {
+        $("#nav a").removeClass("hover");
+        $(this).find("a").addClass("hover");
+        });
+        $(".waterfall li").mouseover(function() {
+        $(this).addClass("hover");
+        $(this).find(".zoom,.ilike").show();
+        });
+        $(".waterfall li").mouseout(function() {
+        $(this).removeClass("hover");
+        $(this).find(".zoom,.ilike").hide();
+        });
+        });
+        </script>
+        <!-- back to top-->
+        <script type="text/javascript">
+        $(document).ready(function(){
+        //首先将#back-to-top隐藏
+        $("#back-to-top").hide();
+        //当滚动条的位置处于距顶部600像素以下时，跳转链接出现，否则消失
+        $(function () {
+        $(window).scroll(function(){
+        if ($(window).scrollTop()>600){
+        $("#back-to-top").fadeIn(500);
+        }else{
+        $("#back-to-top").fadeOut(500);
+        }
+        });
+        //当点击跳转链接后，回到页面顶部位置
+        $("#back-to-top").click(function(){
+        $('body,html').animate({scrollTop:0},100);
+        return false;
+        });
+        });
+        });
+        </script>
+        <!-- panel tab-->
+        <script type="text/javascript">
+        $(function() {
+        $('.tabPanel ul li').hover(function() {
+        $(this).addClass('hit').siblings().removeClass('hit');
+        $('.panes>div:eq(' + $(this).index() + ')').show().siblings().hide();
+        })
+        })
+        </script>
+        
+        <script type = "text/javascript" >
+        var $ = jQuery.noConflict();
+        $(function() {
+        $('#activator').click(function() {
+        $('#box').animate({
+        'top': '0px'
+        }, 500);
+        });
+        $('#boxclose').click(function() {
+        $('#box').animate({
+        'top': '-700px'
+        }, 500);
+        });
+        });
+        $(document).ready(function() {
+        //Hide (Collapse) the toggle containers on load
+        $(".toggle_container").hide();
+        //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+        $(".trigger").click(function() {
+        $(this).toggleClass("active").next().slideToggle("slow");
+        return false; //Prevent the browser jump to the link anchor
+        });
+        });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class ="mainheader">
+                <div class="head_lf_icon">
+                    <a href="index.html"><img src="../static/image/48px_logo.ico"></a>
+                </div>
+                <div class="head_lf_Binguor_info1" >
+                    Binguor
+                </div>
+                <div class="head_lf_Binguor_info2" >
+                    <h1>缤果儿，缤纷你喜欢~</h1>
+                </div>
+                <div class="head_rf" style="margin-top:20px;margin-right:2px;">
+                    <a href="register.html">注 册</a>
+                    <a>|</a>
+                    <div class="loginpart">
+                        <a href="userpage.html">登 录</a>
+                        <div class="loginpart-content">
+                            <div class="loginpart">
+                                <div class="login">
+                                    <form action="" method="post">
+                                        <label>用户名:</label>
+                                        <input type="text" name="username" required />
+                                        <label>密码:<a href="#">忘记密码?</a></label>
+                                        <input type="password" name="password" required />
+                                        <input type="checkbox" name="save" id="save" />
+                                        <label for="save">保持登录</label>
+                                        <input type="submit" value="登录" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="head_rf" style="width:240px;height:40px;margin-right: 20px;">
+                    <div style="padding: 6px;">
+                        <form class="bs-example bs-example-form" role="form">
+                            <div class="col-lg-6" style="width:240px;padding-top: -95px; ">
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-btn"><button class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-search" style="color: rgb(0, 0, 0);height:20px;"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main part -->
+        <div class="mainpanel">
+            <div class="dailycover" style="width:100%;height:200px;background:#eee">
+                <img src="../static/image/dailycover.png" style="width:100%;">
+            </div>
+            <div class="guidebar" style="width:100%;height:50px;background:#ddd;padding:16px;">
+                <ul style="float:left; list-style:none;">
+                    <a style="margin-left:14px; color:#333；" href="#"><span class="glyphicon glyphicon-eye-open" style="color: rgb(58, 64, 87);margin-top:2px;"> </span> 随便看看</a>
+                    <a style="margin-left:14px; color:#333；" href="#"><span class="glyphicon glyphicon-home" style="color: rgb(58, 64, 87);margin-top:2px;"> </span> 逛逛小铺</a>
+                    <a style="margin-left:14px; color:#333；" href="#"><span class="glyphicon glyphicon-gift" style="color: rgb(58, 64, 87);margin-top:2px;"> </span> 二手闲置</a>
+                    <a style="margin-left:14px; color:#333；" href="#"><span class="glyphicon glyphicon-flash" style="color: rgb(58, 64, 87);margin-top:2px;"> </span> 紧俏门票</a>
+                </ul>
+            </div>
+            <div style="width:100%;margin:50px auto;">
+                <div class="goodspanel" style="display:block;">
+                    <ul class="waterfall">
+                        <li>
+                            <div class="img_block">
+                                <img src="../static/image/img1.jpg" />
+                                <a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+                                <a href="#" class="ilike">我喜欢</a>
+                            </div>
+                            <h3>标题测试</h3>
+                            <div class="iNum">
+                                <span>1</span><a href="#">4</a>
+                            </div>
+                            <p>简介文字简介文字简介文字简介文字简介文字简介文字……</p>
+                        </li>
+                        <li>
+                            <div class="img_block">
+                                <img src="../static/image/img1.jpg" />
+                                <a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+                                <a href="#" class="ilike">我喜欢</a>
+                            </div>
+                            <h3>标题测试</h3>
+                            <div class="iNum">
+                                <span>1</span><a href="#">4</a>
+                            </div>
+                            <p>简介文字简介文字简介文字简介文字简介文字简介文字……</p>
+                        </li>
+                        <li>
+                            <div class="img_block">
+                                <img src="../static/image/img2.jpg" />
+                                <a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+                                <a href="#" class="ilike">我喜欢</a>
+                            </div>
+                            <h3>标题测试</h3>
+                            <div class="iNum">
+                                <span>1</span><a href="#">4</a>
+                            </div>
+                            <p>简介文字简介文字简介文字简介文字简介文字简介文字……</p>
+                        </li>
+                        <li>
+                            <div class="img_block">
+                                <img src="../static/image/img2.jpg" />
+                                <a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+                                <a href="#" class="ilike">我喜欢</a>
+                            </div>
+                            <h3>标题测试</h3>
+                            <div class="iNum">
+                                <span>1</span><a href="#">4</a>
+                            </div>
+                            <p>简介文字简介文字简介文字简介文字简介文字简介文字……</p>
+                        </li>
+                        <li>
+                            <div class="img_block">
+                                <img src="../static/image/img3.jpg" />
+                                <a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+                                <a href="#" class="ilike">我喜欢</a>
+                            </div>
+                            <h3>标题测试</h3>
+                            <div class="iNum">
+                                <span>1</span><a href="#">4</a>
+                            </div>
+                            <p>简介文字简介文字简介文字简介文字简介文字简介文字……</p>
+                        </li>
+                        <li>
+                            <div class="img_block">
+                                <img src="../static/image/img4.jpg" />
+                                <a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+                                <a href="#" class="ilike">我喜欢</a>
+                            </div>
+                            <h3>标题测试</h3>
+                            <div class="iNum">
+                                <span>1</span><a href="#">4</a>
+                            </div>
+                            <p>简介文字简介文字简介文字简介文字简介文字简介文字……</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- main end -->
+            </div>
+        </div>
+        <!-- start of waterfall-->
+        <script type = "text/javascript" >
+        (function($) {
+        var $tiles = $('#tiles'),
+        $handler = $('li', $tiles),
+        $main = $('#main'),
+        $window = $(window),
+        $document = $(document),
+        options = {
+        autoResize: true, // This will auto-update the layout when the browser window is resized.
+        container: $main, // Optional, used for some extra CSS styling
+        offset: 20, // Optional, the distance between grid items
+        itemWidth: 280 // Optional, the width of a grid item
+        };
+        /**
+        * Reinitializes the wookmark handler after all images have loaded
+        */
+        function applyLayout() {
+        $tiles.imagesLoaded(function() {
+        // Destroy the old handler
+        if ($handler.wookmarkInstance) {
+        $handler.wookmarkInstance.clear();
+        }
+        // Create a new layout handler.
+        $handler = $('li', $tiles);
+        $handler.wookmark(options);
+        });
+        }
+        /**
+        * When scrolled all the way to the bottom, add more tiles
+        */
+        function onScroll() {
+        // Check if we're within 100 pixels of the bottom edge of the broser window.
+        var winHeight = window.innerHeight ? window.innerHeight : $window.height(), // iphone fix
+        closeToBottom = ($window.scrollTop() + winHeight > $document.height() - 100);
+        if (closeToBottom) {
+        // Get the first then items from the grid, clone them, and add them to the bottom of the grid
+        var $items = $('li', $tiles),
+        $firstTen = $items.slice(0, 10);
+        $tiles.append($firstTen.clone());
+        applyLayout();
+        }
+        };
+        // Call the layout function for the first time
+        applyLayout();
+        // Capture scroll event.
+        $window.bind('scroll.wookmark', onScroll);
+        })(jQuery);
+        </script>
+        <!-- end of waterfall-->
+        <p id="back-to-top">
+            <a href="#top">
+                <span>置顶</span>
+            </a>
+        </p>
+        <footer>
+            <p class="footer-copyright" ">Copyright © Binguor.com 2016-2017, All Rights Reserved</p>
+            <p class="footer-links">
+                <a href="../html/index.html">缤果儿主页</a>|
+                <a href="#">联系我们</a>|
+                <a href="#">服务协议</a>|
+                <a href="#">隐私政策</a>|
+                <a href="#">帮助中心</a>
+            </p>
+        </footer>
+    </body>
+</html>
